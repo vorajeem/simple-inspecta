@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+// import {OutputAreaComponent} from './output-area/output-area.component';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
