@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [IqlService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
