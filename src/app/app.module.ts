@@ -4,10 +4,12 @@ import { NgModule } from '@angular/core';
 import {IqlService} from './iql.service';
 
 import { AppComponent } from './app.component';
+import { OutputAreaComponent } from './output-area/output-area.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OutputAreaComponent
   ],
   imports: [
     BrowserModule
